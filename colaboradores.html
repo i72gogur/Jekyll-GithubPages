@@ -1,0 +1,22 @@
+---
+layout: default
+title: Colaboradores
+---
+<!<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>	
+	<h1>Nuestros colaboradores</h1>
+	<ul class="autores">
+	  {% for author in site.authors %}
+	    <li>
+	      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+	      <h3>{{ author.position }}</h3>
+	      <p>{{ author.content | markdownify }}</p>
+	    </li>
+	  {% endfor %}
+	</ul>
+</body>
+</html>

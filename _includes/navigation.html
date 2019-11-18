@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+	<table class="encabezado">
+		<th>
+			<nav class="navegacion">
+			  <h1 id="titulo">SITIOS SERVERLESS CON JEKYLL</h1>
+			  {% for item in site.data.navigation %}
+			    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+			      {{ item.name }}
+			    </a>
+			  {% endfor %}
+			</nav>
+		</th>
+		<th>
+			<img id="logo" src="/assets/images/logo.png" width="350px" height="150">
+		</th>
+    </table>
+		
+		
+</body>
