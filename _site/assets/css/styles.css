@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body { background-color: #007b7b; }
+
+/*BARRA DE NAVEGACIÓN*/
+.encabezado { background-color: #fae946; width: 100%; }
+
+.navegacion { background-color: #fae946; color: black; overflow: hidden; }
+
+#titulo { font-size: 30px; text-align: left; margin-left: 20px; }
+
+#logo { padding-left: 20px; }
+
+.navegacion a { float: left; display: block; background-color: #fae946; color: black; text-align: center; padding: 14px 20px; text-decoration: none; font-size: 17px; }
+
+.navegacion a:hover { background: #ddd; color: black; }
+
+/*CONTENIDO*/
+.container { display: grid; grid-gap: 10px; grid-template-columns: repeat(2, 1fr); grid-template-areas: "descarga tutoriales" "descarga tutoriales"; }
+
+.descarga { grid-area: descarga; text-align: center; }
+
+#botonDescarga { background-image: url("/assets/images/download.png"); background-repeat: no-repeat; background-position: 6px 6px; padding: 12px 20px 12px 50px; }
+
+.tutoriales { grid-area: tutoriales; margin-right: 20px; }
+
+/*FOOTER*/
+.footer { background: #fae946; color: black; padding: 1.5em 0; border: 5px solid white; /*grid-column: 1 / 5; grid-row: 5 / 6;*/ grid-area: footer; display: flex; justify-content: space-between; padding: 20px; }
+
+.footer-body { display: flex; justify-content: space-between; }
+
+.columna1 { width: 35%; }
+
+.columna1 h1 { font-size: 22px; }
+
+.columna1 p { font-size: 14px; margin-top: 20px; }
+
+.columna2 { width: 30%; }
+
+.columna2 h1 { font-size: 22px; }
+
+.row { margin-top: 20px; display: flex; }
+
+.row img { width: 36px; height: 36px; margin-left: 20px; }
+
+.row label { margin-left: 20px; }
+
+.columna3 { width: 30%; }
+
+.columna3 h1 { font-size: 22px; }
+
+/*COLABORADORES*/
+.autores { list-style-type: circle; }
+
+/*# sourceMappingURL=styles.css.map */
