@@ -1,0 +1,16 @@
+I"�<p>Es un lenguaje de marcado utilizado por Jekyll que nos permite guardar datos de forma serializada, legible para el ser humano, es decir, podremos redactar nuestros datos, acceder a ellos y recorrerlos facilmente con liquid. Presenta las siguientes características:</p>
+
+<ol>
+  <li>
+    <p>Front matter: es la cabecera de los archivos que contendrá cierta información que será de utilidad para Jekyll a la hora de compilar el sitio, como por ejemplo, la plantilla empleada en una determinada página o variables como el autor de un post o su título. Realmente el usuario tiene libertad para añadir las variables que crea necesarias a su front matter.</p>
+  </li>
+  <li>
+    <p>Objetos: se declaran con un par atributo: valor, pudiendo aparecer objetos anidados que tendrán que ser indexados con espacios simples a continuación del objeto principal. Es importante utilizar espacios simples y no tabulaciones ya que el lenguaje YAML solo reconoce el espaciado simple.</p>
+  </li>
+  <li>
+    <p>Arrays: podemos declarar un vecto para almacenar objetos o valores. Para ello cada elemento deberá encontrarse en una línea distinta.</p>
+  </li>
+</ol>
+
+<p>La sintaxis es muy importante en YAML, basándose fundamentalmente en guiones, espacios y dos puntos.</p>
+:ET

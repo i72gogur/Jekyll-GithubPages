@@ -1,19 +1,161 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-20T15:03:07+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Bananas</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/bananas</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/bananas.html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-22T00:40:39+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Comandos Basicos</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html" rel="alternate" type="text/html" title="Comandos Basicos" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instalar ruby: sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instalar gestor de gemas: gem install bundler&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instalar Jekyll: gem install jekyll bundler&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Generar un nuevo sitio: jekyll new NombreDelSitio&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Compilar el sitio para ser servido: jekyll build&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Servir el sitio en local: bundle exec jekyll serve&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.&lt;/p&gt;</content><author><name>rafa</name></author><summary type="html">A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.</summary></entry><entry><title type="html">Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll.html" rel="alternate" type="text/html" title="Jekyll" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll.html">&lt;p&gt;Jekyll es un generador de páginas estáticas para la construcción de sitios webs, principalmente enfocado a blogs, aunque nos permite construir cualquier tipo de página web.&lt;/p&gt;
+&lt;p&gt;COMANDOS PARA TRABAJAR CON GIT:&lt;/p&gt;
 
-&lt;p&gt;Está escrito principalmente en el lenguaje de programación Ruby, es de código abierto y fue desarrollado por Tom Preston-Werner, que a su vez es uno de los cofundadores de GitHub. Por este motivo, Jekyll es utilizado como el motor de creación de todas las páginas que se sirven en GitHub Pages.&lt;/p&gt;</content><author><name>rafa</name></author><summary type="html">Jekyll es un generador de páginas estáticas para la construcción de sitios webs, principalmente enfocado a blogs, aunque nos permite construir cualquier tipo de página web.</summary></entry><entry><title type="html">Serverless</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/serverless.html" rel="alternate" type="text/html" title="Serverless" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/serverless</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/serverless.html">&lt;p&gt;Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) deja de existir para el desarrollador y el código se ejecuta en “ambientes de ejecución” administrados por un proveedor, en nuestro caso Jekyll.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Iniciar un repositorio: git init&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enlazar un directorio local con un repositorio de GitHub: git remote add origin UrlDelRepositorio&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Crear una nueva rama: git checkout -b NombreDeRama&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Añadir todos los archivos al repositorio: git add . ó git add –all&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hacer commit de los cambios realizados: git commit -m “Mensaje”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Subir el contenido actualizado al repositorio: git push origin NombreDeRama&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Descargar el contenido desde el repositorio al directorio local: git pull&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>rafa</name></author><summary type="html">Instalar ruby: sudo apt-get install ruby-full build-essential zlib1g-dev</summary></entry><entry><title type="html">Plantillas En Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html" rel="alternate" type="text/html" title="Plantillas En Jekyll" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html">&lt;p&gt;Una gran utilidad de jekyll es la reutilización de código por medio de plantillas.
+Esta herramienta nos hará mucho más fácil y rápido el desarrollo de nuestro sitio web ya que podemos escribir un html para cada sección que se nos plantee: blogs, investigaciones, posts.
+Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremos que tener una plantilla para ellos.&lt;/p&gt;
+
+&lt;p&gt;Las plantillas funcionan gracias a la etiqueta &amp;lt;h1&amp;gt;COMANDOS BASICOS&amp;lt;/h1&amp;gt;&lt;/p&gt;
+&lt;p&gt;
+  21 Nov 2019
+  
+  
+    - &lt;a href=&quot;/Jekyll-GithubPages/authors/rafa.html&quot;&gt;Rafael González Guerrero&lt;/a&gt;
+  
+&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instalar ruby: sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instalar gestor de gemas: gem install bundler&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instalar Jekyll: gem install jekyll bundler&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Generar un nuevo sitio: jekyll new NombreDelSitio&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Compilar el sitio para ser servido: jekyll build&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Servir el sitio en local: bundle exec jekyll serve&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;COMANDOS PARA TRABAJAR CON GIT:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Iniciar un repositorio: git init&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enlazar un directorio local con un repositorio de GitHub: git remote add origin UrlDelRepositorio&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Crear una nueva rama: git checkout -b NombreDeRama&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Añadir todos los archivos al repositorio: git add . ó git add –all&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hacer commit de los cambios realizados: git commit -m “Mensaje”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Subir el contenido actualizado al repositorio: git push origin NombreDeRama&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Descargar el contenido desde el repositorio al directorio local: git pull&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;, redactamos la plantilla completa, dejando un hueco para el contenido variable de cada post, publicación, etc. en el que escribimos la etiqueta content, de tal forma que cada html que utilice la plantilla, reemplazará el hueco en blanco por su contenido.&lt;/p&gt;
+
+&lt;p&gt;Este recurso nos facilita el cumplimiento del principio de diseño de consistencia ya que nos permitirá que nuestra web sea homogénea y mejorará la navegabilidad del usuario.&lt;/p&gt;
+
+&lt;p&gt;Por tanto, utilizando esta herramienta nuestros htmls no necesitarán etiqueta doctype, html, head ni body, ya que estos estarán incluidos en las plantillas, solo necesitarán un front matter indicando la plantilla a usar con la sintaxis layout: plantilla.&lt;/p&gt;
+
+&lt;p&gt;Otro aporte curioso que hemos descubierto es que se pueden descargar plantillas gratuitamente en internet, las cuales nos facilitan un directorio parecido al que nos genera jekyll pero con los estilos y htmls del autor. El inconveniente que conlleva es que a menudo estas plantillas pueden presentar problemas de dependencias de versiones de gemas de ruby, pero como hemos instalado previamente el gestor de gemas bundler, no es un problema.&lt;/p&gt;
+
+&lt;p&gt;Para hacer uso de plantillas de internet, basta con ejecutar bundle install desde la terminal, dentro de la carpeta que hayamos descargado y modificar los parámetros del archivo _config.yml a nuestra necesidad.&lt;/p&gt;</content><author><name>leo</name></author><summary type="html">Una gran utilidad de jekyll es la reutilización de código por medio de plantillas. Esta herramienta nos hará mucho más fácil y rápido el desarrollo de nuestro sitio web ya que podemos escribir un html para cada sección que se nos plantee: blogs, investigaciones, posts. Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremos que tener una plantilla para ellos.</summary></entry><entry><title type="html">Yaml</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/yaml.html" rel="alternate" type="text/html" title="Yaml" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/yaml</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/yaml.html">&lt;p&gt;Es un lenguaje de marcado utilizado por Jekyll que nos permite guardar datos de forma serializada, legible para el ser humano, es decir, podremos redactar nuestros datos, acceder a ellos y recorrerlos facilmente con liquid. Presenta las siguientes características:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Front matter: es la cabecera de los archivos que contendrá cierta información que será de utilidad para Jekyll a la hora de compilar el sitio, como por ejemplo, la plantilla empleada en una determinada página o variables como el autor de un post o su título. Realmente el usuario tiene libertad para añadir las variables que crea necesarias a su front matter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Objetos: se declaran con un par atributo: valor, pudiendo aparecer objetos anidados que tendrán que ser indexados con espacios simples a continuación del objeto principal. Es importante utilizar espacios simples y no tabulaciones ya que el lenguaje YAML solo reconoce el espaciado simple.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Arrays: podemos declarar un vecto para almacenar objetos o valores. Para ello cada elemento deberá encontrarse en una línea distinta.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;La sintaxis es muy importante en YAML, basándose fundamentalmente en guiones, espacios y dos puntos.&lt;/p&gt;</content><author><name>leo</name></author><summary type="html">Es un lenguaje de marcado utilizado por Jekyll que nos permite guardar datos de forma serializada, legible para el ser humano, es decir, podremos redactar nuestros datos, acceder a ellos y recorrerlos facilmente con liquid. Presenta las siguientes características:</summary></entry><entry><title type="html">Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll.html" rel="alternate" type="text/html" title="Jekyll" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll.html">&lt;p&gt;Jekyll es un generador de sitios web estáticos escrito en lenguaje ruby, esto significa que permite crear fácilmente un directorio organizado para contener nuestros htmls, sus estilos, y cualquier información o recurso que queramos compartir en nuestra página web. Ante cada cambio en sus archivos se debe recompilar todo el sitio para que dichos cambios se hagan efectivos desde la url de nuestro sitio web. Debido a que no serviremos directamente los archivos que modificamos a internet, ya que nosotros los editamos haciendo uso de lenguajes como yaml y liquid, los cuales serán interpretados por jekyll para generar los htmls y css que si se proveerán al cliente.&lt;/p&gt;
+
+&lt;p&gt;Nos permite desarrollar nuestro sitio web de manera sencilla, rápida y segura.
+Haciendo uso de un sistema de plantillas que facilita la escritura de muchos htmls, la incorporación de lenguaje markdown, o las funcionalidades de los lenguajes de yaml y liquid para mostrar y hacer uso del contenido almacenado en nuestro directorio.
+Los sitios web estáticos compilan su contenido en el ordenador host local antes de ser servido, esto supone reducir las vulnerabilidades de nuestra base de datos, así como de la posibilidad de que se infiltre código malicioso.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, no permite gran interacción con el usuario, se usa generalmente para mostrar documentación de proyectos, blogs, y en definitiva sitios con pocos cambios sobre el contenido ya publicado, esto es lo que caracteriza los sitios web estáticos. Fundamentalmente el nuevo contenido que será añadido a nuestro sitio web serán nuevos posts o publicaciones.&lt;/p&gt;</content><author><name>rafa</name></author><summary type="html">Jekyll es un generador de sitios web estáticos escrito en lenguaje ruby, esto significa que permite crear fácilmente un directorio organizado para contener nuestros htmls, sus estilos, y cualquier información o recurso que queramos compartir en nuestra página web. Ante cada cambio en sus archivos se debe recompilar todo el sitio para que dichos cambios se hagan efectivos desde la url de nuestro sitio web. Debido a que no serviremos directamente los archivos que modificamos a internet, ya que nosotros los editamos haciendo uso de lenguajes como yaml y liquid, los cuales serán interpretados por jekyll para generar los htmls y css que si se proveerán al cliente.</summary></entry><entry><title type="html">Liquid</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/liquid.html" rel="alternate" type="text/html" title="Liquid" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/liquid</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/liquid.html">&lt;p&gt;Liquid es un lenguaje de plantillas que nos permite crear “un puente” entre un archivo HTML y un registro de datos. En nuestro caso, el registro de datos será, por ejemplo, el archivo _config.yml del cuál utilizaremos algunas variables generales, como la url del sitio, su nombre, etc.&lt;/p&gt;
+
+&lt;p&gt;A continuación, vamos a ver las funcionalidades que incorpora este lenguaje de marcado y su utilización para desarrollar nuestro sitio web con Jekyll:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Objetos: También llamadas etiquetas de texto, son palabras reservadas que hacen referencia a una entidad y sus propiedades, por entidades nos referimos al archivo config.yml con la palabra site, por ejemplo. Se usan mediante dos braces para abrir y cerar . Entre las variables por defecto están: “site” que tendrá tantas propiedades como queramos añadirle mediante lenguaje yaml, “posts” que hace referencia a la carpeta donde se alojan nuestros blogs se usa site.posts, “pages” hace referencia a los archivos md en el directorio raiz se usa site.pages, “data” hace referencia a la carpeta _data, podremos acceder a ella y sus subcarpetas mediante site.data.NombreCarpeta.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tags: Las etiquetas nos permiten crear cierta lógica en los htmls, como recorrer los elementos de una carpeta de nuestro directorio, por ejemplo. La sintaxis se compone de braces y porcentajes para abrir y cerrar,&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Podemos emplear for, unless, case/when, ifs, if-else, tablerow…
+https://shopify.github.io/liquid/tags/comment/ En este enlace encontraréis más etiquetas.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Filtros: Liquid también permite cambiar reformatear una cadena de entrada en una salida distinta, existen diferentes criterios de formateo, que son los distintos filtros, hay gran variedad, cabe destacar el uso del filtro markdownify para pasar md a html.
+ https://jekyllrb.com/docs/liquid/filters/ En este enlace encontraréis los filtros     más utilizados para jekyll y al final un enlace a otra web con todos ellos.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>leo</name></author><summary type="html">Liquid es un lenguaje de plantillas que nos permite crear “un puente” entre un archivo HTML y un registro de datos. En nuestro caso, el registro de datos será, por ejemplo, el archivo _config.yml del cuál utilizaremos algunas variables generales, como la url del sitio, su nombre, etc.</summary></entry><entry><title type="html">Serverless</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/serverless.html" rel="alternate" type="text/html" title="Serverless" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/serverless</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/serverless.html">&lt;p&gt;Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) dejan de existir para el desarrollador y el código se ejecuta en “ambientes de ejecución” administrados por un proveedor, en nuestro caso Jekyll.&lt;/p&gt;
 
 &lt;p&gt;La principal ventaja de una arquitectura serverless es la posibilidad de que el desarrollador se despreocupe de la gestión de la infraestructura sobre la que se ejecuta su servicio (función) y centrarse en la funcionalidad: el ciclo completo de desarrollo se simplifica.&lt;/p&gt;
 
 &lt;p&gt;También nos proporciona un nivel elevado de desacoplamiento entre los diferentes servicios, favoreciendo el desarrollo de arquitecturas basadas en microservicios. Esto facilita mucho el ciclo de vida y los despliegues continuos.&lt;/p&gt;
 
-&lt;p&gt;Por último, una arquitectura serverless nos posibilita reducir el gasto en infraestructura, generando costes únicamente cuando se realiza una petición, y por tanto, cuando la función se ejecuta.&lt;/p&gt;</content><author><name>rafa</name></author><summary type="html">Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) deja de existir para el desarrollador y el código se ejecuta en “ambientes de ejecución” administrados por un proveedor, en nuestro caso Jekyll.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/jekyll/update/2019/11/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-11-15T15:28:23+01:00</published><updated>2019-11-15T15:28:23+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/jekyll/update/2019/11/15/welcome-to-jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/jekyll/update/2019/11/15/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;Por último, una arquitectura serverless nos posibilita reducir el gasto en infraestructura, generando costes únicamente cuando se realiza una petición, y por tanto, cuando la función se ejecuta.&lt;/p&gt;</content><author><name>rafa</name></author><summary type="html">Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) dejan de existir para el desarrollador y el código se ejecuta en “ambientes de ejecución” administrados por un proveedor, en nuestro caso Jekyll.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/jekyll/update/2019/11/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-11-15T15:28:23+01:00</published><updated>2019-11-15T15:28:23+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/jekyll/update/2019/11/15/welcome-to-jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/jekyll/update/2019/11/15/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Serverless</title>
+    <title>Yaml</title>
     <link rel="stylesheet" href="/Jekyll-GithubPages/assets/css/styles.css">
   </head>
   <body>
@@ -39,22 +39,30 @@
 		
 		
 </body>
-    <h1>SERVERLESS</h1>
+    <h1>YAML</h1>
 <p>
-  16 Nov 2019
+  21 Nov 2019
   
   
-    - <a href="/Jekyll-GithubPages/authors/rafa.html">Rafael González Guerrero</a>
+    - <a href="/Jekyll-GithubPages/authors/leo.html">Leonardo Cosano Palma</a>
   
 </p>
 
-<p>Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) dejan de existir para el desarrollador y el código se ejecuta en “ambientes de ejecución” administrados por un proveedor, en nuestro caso Jekyll.</p>
+<p>Es un lenguaje de marcado utilizado por Jekyll que nos permite guardar datos de forma serializada, legible para el ser humano, es decir, podremos redactar nuestros datos, acceder a ellos y recorrerlos facilmente con liquid. Presenta las siguientes características:</p>
 
-<p>La principal ventaja de una arquitectura serverless es la posibilidad de que el desarrollador se despreocupe de la gestión de la infraestructura sobre la que se ejecuta su servicio (función) y centrarse en la funcionalidad: el ciclo completo de desarrollo se simplifica.</p>
+<ol>
+  <li>
+    <p>Front matter: es la cabecera de los archivos que contendrá cierta información que será de utilidad para Jekyll a la hora de compilar el sitio, como por ejemplo, la plantilla empleada en una determinada página o variables como el autor de un post o su título. Realmente el usuario tiene libertad para añadir las variables que crea necesarias a su front matter.</p>
+  </li>
+  <li>
+    <p>Objetos: se declaran con un par atributo: valor, pudiendo aparecer objetos anidados que tendrán que ser indexados con espacios simples a continuación del objeto principal. Es importante utilizar espacios simples y no tabulaciones ya que el lenguaje YAML solo reconoce el espaciado simple.</p>
+  </li>
+  <li>
+    <p>Arrays: podemos declarar un vecto para almacenar objetos o valores. Para ello cada elemento deberá encontrarse en una línea distinta.</p>
+  </li>
+</ol>
 
-<p>También nos proporciona un nivel elevado de desacoplamiento entre los diferentes servicios, favoreciendo el desarrollo de arquitecturas basadas en microservicios. Esto facilita mucho el ciclo de vida y los despliegues continuos.</p>
-
-<p>Por último, una arquitectura serverless nos posibilita reducir el gasto en infraestructura, generando costes únicamente cuando se realiza una petición, y por tanto, cuando la función se ejecuta.</p>
+<p>La sintaxis es muy importante en YAML, basándose fundamentalmente en guiones, espacios y dos puntos.</p>
 
     <!DOCTYPE html>
 <head></head>

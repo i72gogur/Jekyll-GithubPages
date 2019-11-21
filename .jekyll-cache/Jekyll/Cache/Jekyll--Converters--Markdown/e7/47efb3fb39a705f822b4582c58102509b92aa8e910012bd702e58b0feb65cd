@@ -1,0 +1,4 @@
+I"�<p>Una gran utilidad de jekyll es la reutilización de código por medio de plantillas.
+Esta herramienta nos hará mucho más fácil y rápido el desarrollo de nuestro sitio web ya que podemos escribir un html para cada sección que se nos plantee: blogs, investigaciones, posts.
+Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremos que tener una plantilla para ellos.</p>
+:ET

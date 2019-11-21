@@ -1,0 +1,2 @@
+I"+<p>Liquid es un lenguaje de plantillas que nos permite crear “un puente” entre un archivo HTML y un registro de datos. En nuestro caso, el registro de datos será, por ejemplo, el archivo _config.yml del cuál utilizaremos algunas variables generales, como la url del sitio, su nombre, etc.</p>
+:ET

@@ -1,0 +1,21 @@
+I"�<p>Liquid es un lenguaje de plantillas que nos permite crear “un puente” entre un archivo HTML y un registro de datos. En nuestro caso, el registro de datos será, por ejemplo, el archivo _config.yml del cuál utilizaremos algunas variables generales, como la url del sitio, su nombre, etc.</p>
+
+<p>A continuación, vamos a ver las funcionalidades que incorpora este lenguaje de marcado y su utilización para desarrollar nuestro sitio web con Jekyll:</p>
+
+<ol>
+  <li>
+    <p>Objetos: También llamadas etiquetas de texto, son palabras reservadas que hacen referencia a una entidad y sus propiedades, por entidades nos referimos al archivo config.yml con la palabra site, por ejemplo. Se usan mediante dos braces para abrir y cerar . Entre las variables por defecto están: “site” que tendrá tantas propiedades como queramos añadirle mediante lenguaje yaml, “posts” que hace referencia a la carpeta donde se alojan nuestros blogs se usa site.posts, “pages” hace referencia a los archivos md en el directorio raiz se usa site.pages, “data” hace referencia a la carpeta _data, podremos acceder a ella y sus subcarpetas mediante site.data.NombreCarpeta.</p>
+  </li>
+  <li>
+    <p>Tags: Las etiquetas nos permiten crear cierta lógica en los htmls, como recorrer los elementos de una carpeta de nuestro directorio, por ejemplo. La sintaxis se compone de braces y porcentajes para abrir y cerrar,</p>
+  </li>
+</ol>
+
+<p>Podemos emplear for, unless, case/when, ifs, if-else, tablerow…
+https://shopify.github.io/liquid/tags/comment/ En este enlace encontraréis más etiquetas.</p>
+
+<ol>
+  <li>Filtros: Liquid también permite cambiar reformatear una cadena de entrada en una salida distinta, existen diferentes criterios de formateo, que son los distintos filtros, hay gran variedad, cabe destacar el uso del filtro markdownify para pasar md a html.
+ https://jekyllrb.com/docs/liquid/filters/ En este enlace encontraréis los filtros     más utilizados para jekyll y al final un enlace a otra web con todos ellos.</li>
+</ol>
+:ET

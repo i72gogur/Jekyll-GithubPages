@@ -1,0 +1,47 @@
+I"�<ol>
+  <li>
+    <p>Instalar ruby: sudo apt-get install ruby-full build-essential zlib1g-dev</p>
+  </li>
+  <li>
+    <p>Instalar gestor de gemas: gem install bundler</p>
+  </li>
+  <li>
+    <p>Instalar Jekyll: gem install jekyll bundler</p>
+  </li>
+  <li>
+    <p>Generar un nuevo sitio: jekyll new NombreDelSitio</p>
+  </li>
+  <li>
+    <p>Compilar el sitio para ser servido: jekyll build</p>
+  </li>
+  <li>
+    <p>Servir el sitio en local: bundle exec jekyll serve</p>
+  </li>
+</ol>
+
+<p>COMANDOS PARA TRABAJAR CON GIT:</p>
+
+<ol>
+  <li>
+    <p>Iniciar un repositorio: git init</p>
+  </li>
+  <li>
+    <p>Enlazar un directorio local con un repositorio de GitHub: git remote add origin UrlDelRepositorio</p>
+  </li>
+  <li>
+    <p>Crear una nueva rama: git checkout -b NombreDeRama</p>
+  </li>
+  <li>
+    <p>Añadir todos los archivos al repositorio: git add . ó git add –all</p>
+  </li>
+  <li>
+    <p>Hacer commit de los cambios realizados: git commit -m “Mensaje”</p>
+  </li>
+  <li>
+    <p>Subir el contenido actualizado al repositorio: git push origin NombreDeRama</p>
+  </li>
+  <li>
+    <p>Descargar el contenido desde el repositorio al directorio local: git pull</p>
+  </li>
+</ol>
+:ET
