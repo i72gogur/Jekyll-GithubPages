@@ -1,49 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-22T00:40:39+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Comandos Basicos</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html" rel="alternate" type="text/html" title="Comandos Basicos" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-22T00:46:56+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Comandos Basicos</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html" rel="alternate" type="text/html" title="Comandos Basicos" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html">&lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar ruby: sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/p&gt;
+    &lt;p&gt;Instalar ruby: ‘sudo apt-get install ruby-full build-essential zlib1g-dev’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar gestor de gemas: gem install bundler&lt;/p&gt;
+    &lt;p&gt;Instalar gestor de gemas: ‘gem install bundler’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar Jekyll: gem install jekyll bundler&lt;/p&gt;
+    &lt;p&gt;Instalar Jekyll: ‘gem install jekyll bundler’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Generar un nuevo sitio: jekyll new NombreDelSitio&lt;/p&gt;
+    &lt;p&gt;Generar un nuevo sitio: ‘jekyll new NombreDelSitio’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Compilar el sitio para ser servido: jekyll build&lt;/p&gt;
+    &lt;p&gt;Compilar el sitio para ser servido: ‘jekyll build’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Servir el sitio en local: bundle exec jekyll serve&lt;/p&gt;
+    &lt;p&gt;Servir el sitio en local: ‘bundle exec jekyll serve’&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;COMANDOS PARA TRABAJAR CON GIT:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;COMANDOS PARA TRABAJAR CON GIT:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Iniciar un repositorio: git init&lt;/p&gt;
+    &lt;p&gt;Iniciar un repositorio: ‘git init’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Enlazar un directorio local con un repositorio de GitHub: git remote add origin UrlDelRepositorio&lt;/p&gt;
+    &lt;p&gt;Enlazar un directorio local con un repositorio de GitHub: ‘git remote add origin UrlDelRepositorio’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Crear una nueva rama: git checkout -b NombreDeRama&lt;/p&gt;
+    &lt;p&gt;Crear una nueva rama: ‘git checkout -b NombreDeRama’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Añadir todos los archivos al repositorio: git add . ó git add –all&lt;/p&gt;
+    &lt;p&gt;Añadir todos los archivos al repositorio: ‘git add . ó git add –all’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Hacer commit de los cambios realizados: git commit -m “Mensaje”&lt;/p&gt;
+    &lt;p&gt;Hacer commit de los cambios realizados: ‘git commit -m “Mensaje”’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Subir el contenido actualizado al repositorio: git push origin NombreDeRama&lt;/p&gt;
+    &lt;p&gt;Subir el contenido actualizado al repositorio: ‘git push origin NombreDeRama’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Descargar el contenido desde el repositorio al directorio local: git pull&lt;/p&gt;
+    &lt;p&gt;Descargar el contenido desde el repositorio al directorio local: ‘git pull’&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>rafa</name></author><summary type="html">Instalar ruby: sudo apt-get install ruby-full build-essential zlib1g-dev</summary></entry><entry><title type="html">Plantillas En Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html" rel="alternate" type="text/html" title="Plantillas En Jekyll" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html">&lt;p&gt;Una gran utilidad de jekyll es la reutilización de código por medio de plantillas.
+&lt;/ol&gt;</content><author><name>rafa</name></author><summary type="html">Instalar ruby: ‘sudo apt-get install ruby-full build-essential zlib1g-dev’</summary></entry><entry><title type="html">Plantillas En Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html" rel="alternate" type="text/html" title="Plantillas En Jekyll" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html">&lt;p&gt;Una gran utilidad de jekyll es la reutilización de código por medio de plantillas.
 Esta herramienta nos hará mucho más fácil y rápido el desarrollo de nuestro sitio web ya que podemos escribir un html para cada sección que se nos plantee: blogs, investigaciones, posts.
 Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremos que tener una plantilla para ellos.&lt;/p&gt;
 
@@ -58,48 +58,48 @@ Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremo
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar ruby: sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/p&gt;
+    &lt;p&gt;Instalar ruby: ‘sudo apt-get install ruby-full build-essential zlib1g-dev’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar gestor de gemas: gem install bundler&lt;/p&gt;
+    &lt;p&gt;Instalar gestor de gemas: ‘gem install bundler’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar Jekyll: gem install jekyll bundler&lt;/p&gt;
+    &lt;p&gt;Instalar Jekyll: ‘gem install jekyll bundler’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Generar un nuevo sitio: jekyll new NombreDelSitio&lt;/p&gt;
+    &lt;p&gt;Generar un nuevo sitio: ‘jekyll new NombreDelSitio’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Compilar el sitio para ser servido: jekyll build&lt;/p&gt;
+    &lt;p&gt;Compilar el sitio para ser servido: ‘jekyll build’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Servir el sitio en local: bundle exec jekyll serve&lt;/p&gt;
+    &lt;p&gt;Servir el sitio en local: ‘bundle exec jekyll serve’&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;COMANDOS PARA TRABAJAR CON GIT:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;COMANDOS PARA TRABAJAR CON GIT:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Iniciar un repositorio: git init&lt;/p&gt;
+    &lt;p&gt;Iniciar un repositorio: ‘git init’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Enlazar un directorio local con un repositorio de GitHub: git remote add origin UrlDelRepositorio&lt;/p&gt;
+    &lt;p&gt;Enlazar un directorio local con un repositorio de GitHub: ‘git remote add origin UrlDelRepositorio’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Crear una nueva rama: git checkout -b NombreDeRama&lt;/p&gt;
+    &lt;p&gt;Crear una nueva rama: ‘git checkout -b NombreDeRama’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Añadir todos los archivos al repositorio: git add . ó git add –all&lt;/p&gt;
+    &lt;p&gt;Añadir todos los archivos al repositorio: ‘git add . ó git add –all’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Hacer commit de los cambios realizados: git commit -m “Mensaje”&lt;/p&gt;
+    &lt;p&gt;Hacer commit de los cambios realizados: ‘git commit -m “Mensaje”’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Subir el contenido actualizado al repositorio: git push origin NombreDeRama&lt;/p&gt;
+    &lt;p&gt;Subir el contenido actualizado al repositorio: ‘git push origin NombreDeRama’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Descargar el contenido desde el repositorio al directorio local: git pull&lt;/p&gt;
+    &lt;p&gt;Descargar el contenido desde el repositorio al directorio local: ‘git pull’&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;, redactamos la plantilla completa, dejando un hueco para el contenido variable de cada post, publicación, etc. en el que escribimos la etiqueta content, de tal forma que cada html que utilice la plantilla, reemplazará el hueco en blanco por su contenido.&lt;/p&gt;
@@ -124,13 +124,14 @@ Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremo
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;La sintaxis es muy importante en YAML, basándose fundamentalmente en guiones, espacios y dos puntos.&lt;/p&gt;</content><author><name>leo</name></author><summary type="html">Es un lenguaje de marcado utilizado por Jekyll que nos permite guardar datos de forma serializada, legible para el ser humano, es decir, podremos redactar nuestros datos, acceder a ellos y recorrerlos facilmente con liquid. Presenta las siguientes características:</summary></entry><entry><title type="html">Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll.html" rel="alternate" type="text/html" title="Jekyll" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll.html">&lt;p&gt;Jekyll es un generador de sitios web estáticos escrito en lenguaje ruby, esto significa que permite crear fácilmente un directorio organizado para contener nuestros htmls, sus estilos, y cualquier información o recurso que queramos compartir en nuestra página web. Ante cada cambio en sus archivos se debe recompilar todo el sitio para que dichos cambios se hagan efectivos desde la url de nuestro sitio web. Debido a que no serviremos directamente los archivos que modificamos a internet, ya que nosotros los editamos haciendo uso de lenguajes como yaml y liquid, los cuales serán interpretados por jekyll para generar los htmls y css que si se proveerán al cliente.&lt;/p&gt;
+&lt;p&gt;La sintaxis es muy importante en YAML, basándose fundamentalmente en guiones, espacios y dos puntos.&lt;/p&gt;</content><author><name>leo</name></author><summary type="html">Es un lenguaje de marcado utilizado por Jekyll que nos permite guardar datos de forma serializada, legible para el ser humano, es decir, podremos redactar nuestros datos, acceder a ellos y recorrerlos facilmente con liquid. Presenta las siguientes características:</summary></entry><entry><title type="html">Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll.html" rel="alternate" type="text/html" title="Jekyll" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/jekyll.html">&lt;p&gt;Jekyll es un generador de sitios web estáticos escrito en lenguaje ruby, esto significa que permite crear fácilmente un directorio organizado para contener nuestros htmls, sus estilos, y cualquier información o recurso que queramos compartir en nuestra página web. Ante cada cambio en sus archivos se debe recompilar todo el sitio para que dichos cambios se hagan efectivos desde la url de nuestro sitio web. Esto es debido a que no serviremos directamente los archivos que modificamos a internet, ya que nosotros los editamos haciendo uso de lenguajes como yaml y liquid, los cuales serán interpretados por jekyll para generar los htmls y css que si se proveerán al cliente.&lt;/p&gt;
 
 &lt;p&gt;Nos permite desarrollar nuestro sitio web de manera sencilla, rápida y segura.
-Haciendo uso de un sistema de plantillas que facilita la escritura de muchos htmls, la incorporación de lenguaje markdown, o las funcionalidades de los lenguajes de yaml y liquid para mostrar y hacer uso del contenido almacenado en nuestro directorio.
-Los sitios web estáticos compilan su contenido en el ordenador host local antes de ser servido, esto supone reducir las vulnerabilidades de nuestra base de datos, así como de la posibilidad de que se infiltre código malicioso.&lt;/p&gt;
+Haciendo uso de un sistema de plantillas que facilita la escritura de muchos htmls, la incorporación de lenguaje markdown, o las funcionalidades de los lenguajes de yaml y liquid para mostrar y hacer uso del contenido almacenado en nuestro directorio.&lt;/p&gt;
 
-&lt;p&gt;Sin embargo, no permite gran interacción con el usuario, se usa generalmente para mostrar documentación de proyectos, blogs, y en definitiva sitios con pocos cambios sobre el contenido ya publicado, esto es lo que caracteriza los sitios web estáticos. Fundamentalmente el nuevo contenido que será añadido a nuestro sitio web serán nuevos posts o publicaciones.&lt;/p&gt;</content><author><name>rafa</name></author><summary type="html">Jekyll es un generador de sitios web estáticos escrito en lenguaje ruby, esto significa que permite crear fácilmente un directorio organizado para contener nuestros htmls, sus estilos, y cualquier información o recurso que queramos compartir en nuestra página web. Ante cada cambio en sus archivos se debe recompilar todo el sitio para que dichos cambios se hagan efectivos desde la url de nuestro sitio web. Debido a que no serviremos directamente los archivos que modificamos a internet, ya que nosotros los editamos haciendo uso de lenguajes como yaml y liquid, los cuales serán interpretados por jekyll para generar los htmls y css que si se proveerán al cliente.</summary></entry><entry><title type="html">Liquid</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/liquid.html" rel="alternate" type="text/html" title="Liquid" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/liquid</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/liquid.html">&lt;p&gt;Liquid es un lenguaje de plantillas que nos permite crear “un puente” entre un archivo HTML y un registro de datos. En nuestro caso, el registro de datos será, por ejemplo, el archivo _config.yml del cuál utilizaremos algunas variables generales, como la url del sitio, su nombre, etc.&lt;/p&gt;
+&lt;p&gt;Los sitios web estáticos compilan su contenido en el ordenador host local antes de ser servido, esto supone reducir las vulnerabilidades de nuestra base de datos, así como de la posibilidad de que se infiltre código malicioso.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, no permite gran interacción con el usuario, se usa generalmente para mostrar documentación de proyectos, blogs, y en definitiva sitios con pocos cambios sobre el contenido ya publicado, esto es lo que caracteriza los sitios web estáticos. Fundamentalmente el nuevo contenido que será añadido a nuestro sitio web serán nuevos posts o publicaciones.&lt;/p&gt;</content><author><name>rafa</name></author><summary type="html">Jekyll es un generador de sitios web estáticos escrito en lenguaje ruby, esto significa que permite crear fácilmente un directorio organizado para contener nuestros htmls, sus estilos, y cualquier información o recurso que queramos compartir en nuestra página web. Ante cada cambio en sus archivos se debe recompilar todo el sitio para que dichos cambios se hagan efectivos desde la url de nuestro sitio web. Esto es debido a que no serviremos directamente los archivos que modificamos a internet, ya que nosotros los editamos haciendo uso de lenguajes como yaml y liquid, los cuales serán interpretados por jekyll para generar los htmls y css que si se proveerán al cliente.</summary></entry><entry><title type="html">Liquid</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/liquid.html" rel="alternate" type="text/html" title="Liquid" /><published>2019-11-16T00:00:00+01:00</published><updated>2019-11-16T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/liquid</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/16/liquid.html">&lt;p&gt;Liquid es un lenguaje de plantillas que nos permite crear “un puente” entre un archivo HTML y un registro de datos. En nuestro caso, el registro de datos será, por ejemplo, el archivo _config.yml del cuál utilizaremos algunas variables generales, como la url del sitio, su nombre, etc.&lt;/p&gt;
 
 &lt;p&gt;A continuación, vamos a ver las funcionalidades que incorpora este lenguaje de marcado y su utilización para desarrollar nuestro sitio web con Jekyll:&lt;/p&gt;
 

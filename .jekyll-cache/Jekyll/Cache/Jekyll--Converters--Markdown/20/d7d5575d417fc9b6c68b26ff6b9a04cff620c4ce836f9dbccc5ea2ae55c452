@@ -1,0 +1,10 @@
+I"l<p>Jekyll es un generador de sitios web estáticos escrito en lenguaje ruby, esto significa que permite crear fácilmente un directorio organizado para contener nuestros htmls, sus estilos, y cualquier información o recurso que queramos compartir en nuestra página web. Ante cada cambio en sus archivos se debe recompilar todo el sitio para que dichos cambios se hagan efectivos desde la url de nuestro sitio web. Esto es debido a que no serviremos directamente los archivos que modificamos a internet, ya que nosotros los editamos haciendo uso de lenguajes como yaml y liquid, los cuales serán interpretados por jekyll para generar los htmls y css que si se proveerán al cliente.</p>
+
+<p>Nos permite desarrollar nuestro sitio web de manera sencilla, rápida y segura.
+Haciendo uso de un sistema de plantillas que facilita la escritura de muchos htmls, la incorporación de lenguaje markdown, o las funcionalidades de los lenguajes de yaml y liquid para mostrar y hacer uso del contenido almacenado en nuestro directorio.</p>
+
+<p>Los sitios web estáticos compilan su contenido en el ordenador host local antes de ser servido, esto supone reducir las vulnerabilidades de nuestra base de datos, así como de la posibilidad de que se infiltre código malicioso.</p>
+
+<p>Sin embargo, no permite gran interacción con el usuario, se usa generalmente para mostrar documentación de proyectos, blogs, y en definitiva sitios con pocos cambios sobre el contenido ya publicado, esto es lo que caracteriza los sitios web estáticos. Fundamentalmente el nuevo contenido que será añadido a nuestro sitio web serán nuevos posts o publicaciones.</p>
+
+:ET
