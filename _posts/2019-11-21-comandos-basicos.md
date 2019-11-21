@@ -3,7 +3,8 @@ layout: post
 author: rafa
 ---
 
-1. Instalar ruby: 'sudo apt-get install ruby-full build-essential zlib1g-dev'
+1. Instalar ruby:
+'sudo apt-get install ruby-full build-essential zlib1g-dev'
 
 2. Instalar gestor de gemas: 'gem install bundler'
 
@@ -14,6 +15,8 @@ author: rafa
 5. Compilar el sitio para ser servido: 'jekyll build'
 
 6. Servir el sitio en local: 'bundle exec jekyll serve'
+
+***
 
 **COMANDOS PARA TRABAJAR CON GIT:**
 

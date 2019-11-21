@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-22T00:46:56+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Comandos Basicos</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html" rel="alternate" type="text/html" title="Comandos Basicos" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-22T00:48:52+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Comandos Basicos</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html" rel="alternate" type="text/html" title="Comandos Basicos" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html">&lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar ruby: ‘sudo apt-get install ruby-full build-essential zlib1g-dev’&lt;/p&gt;
+    &lt;p&gt;Instalar ruby:
+‘sudo apt-get install ruby-full build-essential zlib1g-dev’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Instalar gestor de gemas: ‘gem install bundler’&lt;/p&gt;
@@ -18,6 +19,8 @@
     &lt;p&gt;Servir el sitio en local: ‘bundle exec jekyll serve’&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;&lt;strong&gt;COMANDOS PARA TRABAJAR CON GIT:&lt;/strong&gt;&lt;/p&gt;
 
@@ -58,7 +61,8 @@ Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremo
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar ruby: ‘sudo apt-get install ruby-full build-essential zlib1g-dev’&lt;/p&gt;
+    &lt;p&gt;Instalar ruby:
+‘sudo apt-get install ruby-full build-essential zlib1g-dev’&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Instalar gestor de gemas: ‘gem install bundler’&lt;/p&gt;
@@ -76,6 +80,8 @@ Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremo
     &lt;p&gt;Servir el sitio en local: ‘bundle exec jekyll serve’&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;&lt;strong&gt;COMANDOS PARA TRABAJAR CON GIT:&lt;/strong&gt;&lt;/p&gt;
 

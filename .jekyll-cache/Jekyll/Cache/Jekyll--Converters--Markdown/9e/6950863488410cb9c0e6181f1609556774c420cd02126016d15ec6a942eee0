@@ -1,54 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Plantillas En Jekyll</title>
-    <link rel="stylesheet" href="/Jekyll-GithubPages/assets/css/styles.css">
-  </head>
-  <body>
-  	<!DOCTYPE html>
-<head></head>
-<body>
-	<table class="encabezado">
-		<th>
-			<nav class="navegacion">
-			  <h1 id="titulo">SITIOS SERVERLESS CON JEKYLL</h1>
-			  
-			    <a href="/Jekyll-GithubPages" >
-			      Home
-			    </a>
-			  
-			    <a href="/Jekyll-GithubPages/blog.html" >
-			      Posts
-			    </a>
-			  
-			    <a href="/Jekyll-GithubPages/colaboradores.html" >
-			      Colaboradores
-			    </a>
-			  
-			    <a href="/Jekyll-GithubPages/about.html" >
-			      About
-			    </a>
-			  
-			</nav>
-		</th>
-		<th>
-			<img id="logo" src="/Jekyll-GithubPages/assets/images/logo.png" width="350px" height="150">
-		</th>
-    </table>
-		
-		
-</body>
-    <h1>PLANTILLAS EN JEKYLL</h1>
-<p>
-  21 Nov 2019
-  
-  
-    - <a href="/Jekyll-GithubPages/authors/leo.html">Leonardo Cosano Palma</a>
-  
-</p>
-
-<p>Una gran utilidad de jekyll es la reutilización de código por medio de plantillas.
+I"�<p>Una gran utilidad de jekyll es la reutilización de código por medio de plantillas.
 Esta herramienta nos hará mucho más fácil y rápido el desarrollo de nuestro sitio web ya que podemos escribir un html para cada sección que se nos plantee: blogs, investigaciones, posts.
 Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremos que tener una plantilla para ellos.</p>
 
@@ -119,50 +69,4 @@ Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremo
 <p>Otro aporte curioso que hemos descubierto es que se pueden descargar plantillas gratuitamente en internet, las cuales nos facilitan un directorio parecido al que nos genera jekyll pero con los estilos y htmls del autor. El inconveniente que conlleva es que a menudo estas plantillas pueden presentar problemas de dependencias de versiones de gemas de ruby, pero como hemos instalado previamente el gestor de gemas bundler, no es un problema.</p>
 
 <p>Para hacer uso de plantillas de internet, basta con ejecutar bundle install desde la terminal, dentro de la carpeta que hayamos descargado y modificar los parámetros del archivo _config.yml a nuestra necesidad.</p>
-
-    <!DOCTYPE html>
-<head></head>
-<body>
-	<div class="footer">
-        <div class="footer-body">
-           <div class="columna1">
-              <h1>NUESTRO OBJETIVO</h1>
-              <p>Profundizar en la creación de sitios web estáticos con el generador Jekyll alojados en Github-Pages.
-              </p>
-           </div>
-           <div class="columna2">
-              <h1>CONTACTA CON NOSOTROS SI TIENES ALGUNA DUDA</h1>
-              <div class="row">
-                  <img src="/Jekyll-GithubPages/assets/images/sobre.svg">
-                  <a href="mailto:i72copal@uco.es">
-                    <label>i72copal@uco.es</label>
-                  </a>
-              </div>
-              <div class="row">
-                  <img src="/Jekyll-GithubPages/assets/images/sobre.svg">
-                  <a href="mailto:i72gogur@uco.es">
-                    <label>i72gogur@uco.es</label>
-                  </a>
-              </div>
-           </div>
-           <div class="columna3">
-              <h1>ENLACES PRINCIPALES</h1>
-              <div class="row">
-                 <img src="/Jekyll-GithubPages/assets/images/github.svg">
-                  <a href="https://github.com/i72gogur/Jekyll">
-                    <label>Nuestro repositorio en GitHub</label>
-                  </a>
-              </div>
-              <div class="row">
-                 <img src="/Jekyll-GithubPages/assets/images/www.svg">
-                  <a href="https://jekyllrb.com/">
-                    <label>Página oficial de Jekyll</label>
-                  </a>
-              </div>
-           </div>
-        </div>
-
-    </div>
-</body>
-  </body>
-</html>
+:ET
