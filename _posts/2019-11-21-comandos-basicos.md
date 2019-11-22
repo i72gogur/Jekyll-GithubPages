@@ -18,7 +18,7 @@ A continuación se muestra un resumen de los comandos básicos que hemos utiliza
 
 ---
 
-**COMANDOS PARA TRABAJAR CON GIT:**
+## **COMANDOS PARA TRABAJAR CON GIT:**
 
 1. Iniciar un repositorio: `git init`
 

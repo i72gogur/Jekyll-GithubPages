@@ -14,9 +14,9 @@ La principal utilidad que tiene el uso de assets es a la hora de dar estilo a nu
 
 Primero crearemos un archivo Saas con extensión .scss, por ejemplo estilos.scss y lo añadiremos a nuestra carpeta de css dentro del directorio de assets. En este archivo dejaremos el front matter vacío, lo cual le indica a jekyll que tiene que procesar y añadiremos también la siguiente línea de código para importar el archivo de estilos, quedando nuestro archivos scss de la siguiente forma:
 
-`---  
- ---  
- @import "main";`
+`---`  
+`---`  
+`@import "main";`
 
 Con esto indicamos a Sass que busque un archivo llamado main.scss (que en nuestro caso contendrá el estilo de nuestra página principal) en el directorio correspondiente a los archivos Sass.
 
