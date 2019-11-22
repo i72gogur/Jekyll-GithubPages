@@ -51,8 +51,8 @@ body { background-color: #007b7b; }
 /*COLABORADORES*/
 .autores { list-style-type: circle; }
 
-img[alt="Imagen de rafa"] { width: 150px; height: 200px; float: center; }
+img[alt="Imagen de rafa"] { width: 150px; height: 200px; margin-left: 20px; }
 
-img[alt="Imagen de leo"] { width: 250px; height: 350px; }
+img[alt="Imagen de leo"] { width: 250px; height: 350px; margin-left: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
