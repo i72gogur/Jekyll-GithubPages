@@ -1,22 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-22T00:48:52+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Comandos Basicos</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html" rel="alternate" type="text/html" title="Comandos Basicos" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-22T01:18:11+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Comandos Basicos</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html" rel="alternate" type="text/html" title="Comandos Basicos" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html">&lt;p&gt;A continuación se muestra un resumen de los comandos básicos que hemos utilizado para el desarrollo de nuestro proyecto.&lt;/p&gt;
+
+&lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar ruby:
-‘sudo apt-get install ruby-full build-essential zlib1g-dev’&lt;/p&gt;
+    &lt;p&gt;Instalar ruby: &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar gestor de gemas: ‘gem install bundler’&lt;/p&gt;
+    &lt;p&gt;Instalar gestor de gemas: &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Instalar Jekyll: ‘gem install jekyll bundler’&lt;/p&gt;
+    &lt;p&gt;Instalar Jekyll: &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll bundler&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Generar un nuevo sitio: ‘jekyll new NombreDelSitio’&lt;/p&gt;
+    &lt;p&gt;Generar un nuevo sitio: &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new NombreDelSitio&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Compilar el sitio para ser servido: ‘jekyll build’&lt;/p&gt;
+    &lt;p&gt;Compilar el sitio para ser servido: &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Servir el sitio en local: ‘bundle exec jekyll serve’&lt;/p&gt;
+    &lt;p&gt;Servir el sitio en local: &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -26,31 +27,44 @@
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Iniciar un repositorio: ‘git init’&lt;/p&gt;
+    &lt;p&gt;Iniciar un repositorio: &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Enlazar un directorio local con un repositorio de GitHub: ‘git remote add origin UrlDelRepositorio’&lt;/p&gt;
+    &lt;p&gt;Enlazar un directorio local con un repositorio de GitHub: &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add origin UrlDelRepositorio&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Crear una nueva rama: ‘git checkout -b NombreDeRama’&lt;/p&gt;
+    &lt;p&gt;Crear una nueva rama: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b NombreDeRama&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Añadir todos los archivos al repositorio: ‘git add . ó git add –all’&lt;/p&gt;
+    &lt;p&gt;Añadir todos los archivos al repositorio: &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt; ó &lt;code class=&quot;highlighter-rouge&quot;&gt;git add --all&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Hacer commit de los cambios realizados: ‘git commit -m “Mensaje”’&lt;/p&gt;
+    &lt;p&gt;Hacer commit de los cambios realizados: &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;Mensaje&quot;&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Subir el contenido actualizado al repositorio: ‘git push origin NombreDeRama’&lt;/p&gt;
+    &lt;p&gt;Subir el contenido actualizado al repositorio: &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin NombreDeRama&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Descargar el contenido desde el repositorio al directorio local: ‘git pull’&lt;/p&gt;
+    &lt;p&gt;Descargar el contenido desde el repositorio al directorio local: &lt;code class=&quot;highlighter-rouge&quot;&gt;git pull&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>rafa</name></author><summary type="html">Instalar ruby: ‘sudo apt-get install ruby-full build-essential zlib1g-dev’</summary></entry><entry><title type="html">Plantillas En Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html" rel="alternate" type="text/html" title="Plantillas En Jekyll" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html">&lt;p&gt;Una gran utilidad de jekyll es la reutilización de código por medio de plantillas.
+&lt;/ol&gt;</content><author><name>rafa</name></author><summary type="html">A continuación se muestra un resumen de los comandos básicos que hemos utilizado para el desarrollo de nuestro proyecto.</summary></entry><entry><title type="html">Despliegue En Github Pages</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/despliegue-en-github-pages.html" rel="alternate" type="text/html" title="Despliegue En Github Pages" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/despliegue-en-github-pages</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/despliegue-en-github-pages.html">&lt;p&gt;Desplegar tu sitio para que cualquiera pueda visitarlo es muy simple gracias a Jekyll y Github-Pages. Tan solo tienes que seguir estos pasos:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Editar el archivo de configuración _config.yml, modificando los parámetros baseurl donde añadiremos el nombre del repositorio desde el que accederemos a nuestro sitio y el parámetro url con la dirección completa de nuestro sitio.
+En nuestro caso será: https://i72gogur.github.io/Jekyll-GithubPages&lt;/li&gt;
+  &lt;li&gt;Iniciamos git en un directorio local con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Enlazamos el repositorio de git con nuestro directorio local: &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add origin https://github.com/i72gogur/NombreDelRepositorio.git&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Creamos una nueva rama para Github-Pages: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b gh-pages&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Añadimos todos los archivos: &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Hacemos commit: &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;Mensaje&quot;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Subimos el contenido a la rama creada con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin gh-pages&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Vamos al apartado de configuración desde nuestro repositorio git y desde la opción de Github Pages seleccionamos la opción de utilizar la rama que hemos creado (gh-pages)&lt;/li&gt;
+  &lt;li&gt;¡Y listo! Nuestro sitio estará disponible &lt;a href=&quot;https://i72gogur.github.io/Jekyll-GithubPages&quot;&gt;aquí&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>rafa</name></author><summary type="html">Desplegar tu sitio para que cualquiera pueda visitarlo es muy simple gracias a Jekyll y Github-Pages. Tan solo tienes que seguir estos pasos:</summary></entry><entry><title type="html">Plantillas En Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html" rel="alternate" type="text/html" title="Plantillas En Jekyll" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html">&lt;p&gt;Una gran utilidad de jekyll es la reutilización de código por medio de plantillas.
 Esta herramienta nos hará mucho más fácil y rápido el desarrollo de nuestro sitio web ya que podemos escribir un html para cada sección que se nos plantee: blogs, investigaciones, posts.
 Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremos que tener una plantilla para ellos.&lt;/p&gt;
 
-&lt;p&gt;Las plantillas funcionan gracias a la etiqueta &amp;lt;h1&amp;gt;COMANDOS BASICOS&amp;lt;/h1&amp;gt;&lt;/p&gt;
+&lt;p&gt;Las plantillas funcionan gracias a la etiqueta &amp;lt;h1&amp;gt;DESPLIEGUE EN GITHUB PAGES&amp;lt;/h1&amp;gt;&lt;/p&gt;
 &lt;p&gt;
   21 Nov 2019
   
@@ -59,54 +73,19 @@ Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremo
   
 &lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Instalar ruby:
-‘sudo apt-get install ruby-full build-essential zlib1g-dev’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Instalar gestor de gemas: ‘gem install bundler’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Instalar Jekyll: ‘gem install jekyll bundler’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Generar un nuevo sitio: ‘jekyll new NombreDelSitio’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Compilar el sitio para ser servido: ‘jekyll build’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Servir el sitio en local: ‘bundle exec jekyll serve’&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;COMANDOS PARA TRABAJAR CON GIT:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Desplegar tu sitio para que cualquiera pueda visitarlo es muy simple gracias a Jekyll y Github-Pages. Tan solo tienes que seguir estos pasos:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Iniciar un repositorio: ‘git init’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Enlazar un directorio local con un repositorio de GitHub: ‘git remote add origin UrlDelRepositorio’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Crear una nueva rama: ‘git checkout -b NombreDeRama’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Añadir todos los archivos al repositorio: ‘git add . ó git add –all’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Hacer commit de los cambios realizados: ‘git commit -m “Mensaje”’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Subir el contenido actualizado al repositorio: ‘git push origin NombreDeRama’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Descargar el contenido desde el repositorio al directorio local: ‘git pull’&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Editar el archivo de configuración _config.yml, modificando los parámetros baseurl donde añadiremos el nombre del repositorio desde el que accederemos a nuestro sitio y el parámetro url con la dirección completa de nuestro sitio.
+En nuestro caso será: https://i72gogur.github.io/Jekyll-GithubPages&lt;/li&gt;
+  &lt;li&gt;Iniciamos git en un directorio local con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Enlazamos el repositorio de git con nuestro directorio local: &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add origin https://github.com/i72gogur/NombreDelRepositorio.git&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Creamos una nueva rama para Github-Pages: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b gh-pages&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Añadimos todos los archivos: &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Hacemos commit: &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;Mensaje&quot;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Subimos el contenido a la rama creada con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin gh-pages&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Vamos al apartado de configuración desde nuestro repositorio git y desde la opción de Github Pages seleccionamos la opción de utilizar la rama que hemos creado (gh-pages)&lt;/li&gt;
+  &lt;li&gt;¡Y listo! Nuestro sitio estará disponible &lt;a href=&quot;https://i72gogur.github.io/Jekyll-GithubPages&quot;&gt;aquí&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;, redactamos la plantilla completa, dejando un hueco para el contenido variable de cada post, publicación, etc. en el que escribimos la etiqueta content, de tal forma que cada html que utilice la plantilla, reemplazará el hueco en blanco por su contenido.&lt;/p&gt;
 
@@ -116,7 +95,28 @@ Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremo
 
 &lt;p&gt;Otro aporte curioso que hemos descubierto es que se pueden descargar plantillas gratuitamente en internet, las cuales nos facilitan un directorio parecido al que nos genera jekyll pero con los estilos y htmls del autor. El inconveniente que conlleva es que a menudo estas plantillas pueden presentar problemas de dependencias de versiones de gemas de ruby, pero como hemos instalado previamente el gestor de gemas bundler, no es un problema.&lt;/p&gt;
 
-&lt;p&gt;Para hacer uso de plantillas de internet, basta con ejecutar bundle install desde la terminal, dentro de la carpeta que hayamos descargado y modificar los parámetros del archivo _config.yml a nuestra necesidad.&lt;/p&gt;</content><author><name>leo</name></author><summary type="html">Una gran utilidad de jekyll es la reutilización de código por medio de plantillas. Esta herramienta nos hará mucho más fácil y rápido el desarrollo de nuestro sitio web ya que podemos escribir un html para cada sección que se nos plantee: blogs, investigaciones, posts. Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremos que tener una plantilla para ellos.</summary></entry><entry><title type="html">Yaml</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/yaml.html" rel="alternate" type="text/html" title="Yaml" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/yaml</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/yaml.html">&lt;p&gt;Es un lenguaje de marcado utilizado por Jekyll que nos permite guardar datos de forma serializada, legible para el ser humano, es decir, podremos redactar nuestros datos, acceder a ellos y recorrerlos facilmente con liquid. Presenta las siguientes características:&lt;/p&gt;
+&lt;p&gt;Para hacer uso de plantillas de internet, basta con ejecutar bundle install desde la terminal, dentro de la carpeta que hayamos descargado y modificar los parámetros del archivo _config.yml a nuestra necesidad.&lt;/p&gt;</content><author><name>leo</name></author><summary type="html">Una gran utilidad de jekyll es la reutilización de código por medio de plantillas. Esta herramienta nos hará mucho más fácil y rápido el desarrollo de nuestro sitio web ya que podemos escribir un html para cada sección que se nos plantee: blogs, investigaciones, posts. Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremos que tener una plantilla para ellos.</summary></entry><entry><title type="html">Uso De Assets</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/uso-de-assets.html" rel="alternate" type="text/html" title="Uso De Assets" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/uso-de-assets</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/uso-de-assets.html">&lt;p&gt;Otro recurso que nos servirá de utilidad para la elaboración de nuestro sitio web son los assets, los cuales nos permitirán añadir fotos o archivos PDF a nuestros posts. Para ello crearemos una carpeta que con el nombre de assets y en la que incluiremos todas las imágenes o archivos que queremos que aparezcan en nuestra página. Además, también podemos añadir archivos de estilo css y nuestros scripts en javascript de esta forma, organizando la carpeta en subcarpetas tendremos todos los recursos bien organizados.
+Después, para utilizarlos simplemente tendremos que enlazarlos añadiendo la ruta del archivo que queremos añadir en el código de nuestro post.&lt;/p&gt;
+
+&lt;p&gt;Por ejemplo, si queremos añadir la imagen de nuestro logotipo en lenguaje Markdown haríamos lo siguiente:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;![Logotipo](/assets/images/logotipo.png)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;La principal utilidad que tiene el uso de assets es a la hora de dar estilo a nuestra página, para ello podemos utilizar Sass que es un preprocesador de lenguaje para hojas de estilo y que podemos usar conjuntamente con CSS.&lt;/p&gt;
+
+&lt;p&gt;Primero crearemos un archivo Saas con extensión .scss, por ejemplo estilos.scss y lo añadiremos a nuestra carpeta de css dentro del directorio de assets. En este archivo dejaremos el front matter vacío, lo cual le indica a jekyll que tiene que procesar y añadiremos también la siguiente línea de código para importar el archivo de estilos, quedando nuestro archivos scss de la siguiente forma:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;---  
+ ---  
+ @import &quot;main&quot;;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Con esto indicamos a Sass que busque un archivo llamado main.scss (que en nuestro caso contendrá el estilo de nuestra página principal) en el directorio correspondiente a los archivos Sass.&lt;/p&gt;
+
+&lt;p&gt;Por último, para usar esta hoja de estilos solamente tendremos que incluir en la cabecera del archivo html al que queramos dar forma la referencia a nuestro archivo scss creado al principio:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/Jekyll-GithubPages/assets/css/styles.css&quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Para proyectos grandes en los que tenemos varias hojas de estilo esta es la mejor forma de tener organizado nuestro código.&lt;/p&gt;</content><author><name>leo</name></author><summary type="html">Otro recurso que nos servirá de utilidad para la elaboración de nuestro sitio web son los assets, los cuales nos permitirán añadir fotos o archivos PDF a nuestros posts. Para ello crearemos una carpeta que con el nombre de assets y en la que incluiremos todas las imágenes o archivos que queremos que aparezcan en nuestra página. Además, también podemos añadir archivos de estilo css y nuestros scripts en javascript de esta forma, organizando la carpeta en subcarpetas tendremos todos los recursos bien organizados. Después, para utilizarlos simplemente tendremos que enlazarlos añadiendo la ruta del archivo que queremos añadir en el código de nuestro post.</summary></entry><entry><title type="html">Yaml</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/yaml.html" rel="alternate" type="text/html" title="Yaml" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/yaml</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/yaml.html">&lt;p&gt;Es un lenguaje de marcado utilizado por Jekyll que nos permite guardar datos de forma serializada, legible para el ser humano, es decir, podremos redactar nuestros datos, acceder a ellos y recorrerlos facilmente con liquid. Presenta las siguientes características:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -162,20 +162,4 @@ https://shopify.github.io/liquid/tags/comment/ En este enlace encontraréis más
 
 &lt;p&gt;También nos proporciona un nivel elevado de desacoplamiento entre los diferentes servicios, favoreciendo el desarrollo de arquitecturas basadas en microservicios. Esto facilita mucho el ciclo de vida y los despliegues continuos.&lt;/p&gt;
 
-&lt;p&gt;Por último, una arquitectura serverless nos posibilita reducir el gasto en infraestructura, generando costes únicamente cuando se realiza una petición, y por tanto, cuando la función se ejecuta.&lt;/p&gt;</content><author><name>rafa</name></author><summary type="html">Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) dejan de existir para el desarrollador y el código se ejecuta en “ambientes de ejecución” administrados por un proveedor, en nuestro caso Jekyll.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/jekyll/update/2019/11/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-11-15T15:28:23+01:00</published><updated>2019-11-15T15:28:23+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/jekyll/update/2019/11/15/welcome-to-jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/jekyll/update/2019/11/15/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Por último, una arquitectura serverless nos posibilita reducir el gasto en infraestructura, generando costes únicamente cuando se realiza una petición, y por tanto, cuando la función se ejecuta.&lt;/p&gt;</content><author><name>rafa</name></author><summary type="html">Serverless es un tipo de arquitectura donde los servidores (físicos o en la nube) dejan de existir para el desarrollador y el código se ejecuta en “ambientes de ejecución” administrados por un proveedor, en nuestro caso Jekyll.</summary></entry></feed>

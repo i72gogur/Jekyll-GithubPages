@@ -1,0 +1,51 @@
+I"Z<p>A continuación se muestra un resumen de los comandos básicos que hemos utilizado para el desarrollo de nuestro proyecto.</p>
+
+<ol>
+  <li>
+    <p>Instalar ruby: <code class="highlighter-rouge">sudo apt-get install ruby-full build-essential zlib1g-dev</code></p>
+  </li>
+  <li>
+    <p>Instalar gestor de gemas: <code class="highlighter-rouge">gem install bundler</code></p>
+  </li>
+  <li>
+    <p>Instalar Jekyll: <code class="highlighter-rouge">gem install jekyll bundler</code></p>
+  </li>
+  <li>
+    <p>Generar un nuevo sitio: <code class="highlighter-rouge">jekyll new NombreDelSitio</code></p>
+  </li>
+  <li>
+    <p>Compilar el sitio para ser servido: <code class="highlighter-rouge">jekyll build</code></p>
+  </li>
+  <li>
+    <p>Servir el sitio en local: <code class="highlighter-rouge">bundle exec jekyll serve</code></p>
+  </li>
+</ol>
+
+<hr />
+
+<p><strong>COMANDOS PARA TRABAJAR CON GIT:</strong></p>
+
+<ol>
+  <li>
+    <p>Iniciar un repositorio: <code class="highlighter-rouge">git init</code></p>
+  </li>
+  <li>
+    <p>Enlazar un directorio local con un repositorio de GitHub: <code class="highlighter-rouge">git remote add origin UrlDelRepositorio</code></p>
+  </li>
+  <li>
+    <p>Crear una nueva rama: <code class="highlighter-rouge">git checkout -b NombreDeRama</code></p>
+  </li>
+  <li>
+    <p>Añadir todos los archivos al repositorio: <code class="highlighter-rouge">git add .</code> ó <code class="highlighter-rouge">git add --all</code></p>
+  </li>
+  <li>
+    <p>Hacer commit de los cambios realizados: <code class="highlighter-rouge">git commit -m "Mensaje"</code></p>
+  </li>
+  <li>
+    <p>Subir el contenido actualizado al repositorio: <code class="highlighter-rouge">git push origin NombreDeRama</code></p>
+  </li>
+  <li>
+    <p>Descargar el contenido desde el repositorio al directorio local: <code class="highlighter-rouge">git pull</code></p>
+  </li>
+</ol>
+:ET

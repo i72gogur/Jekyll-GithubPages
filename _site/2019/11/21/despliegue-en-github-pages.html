@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Comandos Basicos</title>
+    <title>Despliegue En Github Pages</title>
     <link rel="stylesheet" href="/Jekyll-GithubPages/assets/css/styles.css">
   </head>
   <body>
@@ -39,7 +39,7 @@
 		
 		
 </body>
-    <h1>COMANDOS BASICOS</h1>
+    <h1>DESPLIEGUE EN GITHUB PAGES</h1>
 <p>
   21 Nov 2019
   
@@ -48,55 +48,19 @@
   
 </p>
 
-<p>A continuación se muestra un resumen de los comandos básicos que hemos utilizado para el desarrollo de nuestro proyecto.</p>
+<p>Desplegar tu sitio para que cualquiera pueda visitarlo es muy simple gracias a Jekyll y Github-Pages. Tan solo tienes que seguir estos pasos:</p>
 
 <ol>
-  <li>
-    <p>Instalar ruby: <code class="highlighter-rouge">sudo apt-get install ruby-full build-essential zlib1g-dev</code></p>
-  </li>
-  <li>
-    <p>Instalar gestor de gemas: <code class="highlighter-rouge">gem install bundler</code></p>
-  </li>
-  <li>
-    <p>Instalar Jekyll: <code class="highlighter-rouge">gem install jekyll bundler</code></p>
-  </li>
-  <li>
-    <p>Generar un nuevo sitio: <code class="highlighter-rouge">jekyll new NombreDelSitio</code></p>
-  </li>
-  <li>
-    <p>Compilar el sitio para ser servido: <code class="highlighter-rouge">jekyll build</code></p>
-  </li>
-  <li>
-    <p>Servir el sitio en local: <code class="highlighter-rouge">bundle exec jekyll serve</code></p>
-  </li>
-</ol>
-
-<hr />
-
-<p><strong>COMANDOS PARA TRABAJAR CON GIT:</strong></p>
-
-<ol>
-  <li>
-    <p>Iniciar un repositorio: <code class="highlighter-rouge">git init</code></p>
-  </li>
-  <li>
-    <p>Enlazar un directorio local con un repositorio de GitHub: <code class="highlighter-rouge">git remote add origin UrlDelRepositorio</code></p>
-  </li>
-  <li>
-    <p>Crear una nueva rama: <code class="highlighter-rouge">git checkout -b NombreDeRama</code></p>
-  </li>
-  <li>
-    <p>Añadir todos los archivos al repositorio: <code class="highlighter-rouge">git add .</code> ó <code class="highlighter-rouge">git add --all</code></p>
-  </li>
-  <li>
-    <p>Hacer commit de los cambios realizados: <code class="highlighter-rouge">git commit -m "Mensaje"</code></p>
-  </li>
-  <li>
-    <p>Subir el contenido actualizado al repositorio: <code class="highlighter-rouge">git push origin NombreDeRama</code></p>
-  </li>
-  <li>
-    <p>Descargar el contenido desde el repositorio al directorio local: <code class="highlighter-rouge">git pull</code></p>
-  </li>
+  <li>Editar el archivo de configuración _config.yml, modificando los parámetros baseurl donde añadiremos el nombre del repositorio desde el que accederemos a nuestro sitio y el parámetro url con la dirección completa de nuestro sitio.
+En nuestro caso será: https://i72gogur.github.io/Jekyll-GithubPages</li>
+  <li>Iniciamos git en un directorio local con: <code class="highlighter-rouge">git init</code></li>
+  <li>Enlazamos el repositorio de git con nuestro directorio local: <code class="highlighter-rouge">git remote add origin https://github.com/i72gogur/NombreDelRepositorio.git</code></li>
+  <li>Creamos una nueva rama para Github-Pages: <code class="highlighter-rouge">git checkout -b gh-pages</code></li>
+  <li>Añadimos todos los archivos: <code class="highlighter-rouge">git add .</code></li>
+  <li>Hacemos commit: <code class="highlighter-rouge">git commit -m "Mensaje"</code></li>
+  <li>Subimos el contenido a la rama creada con: <code class="highlighter-rouge">git push origin gh-pages</code></li>
+  <li>Vamos al apartado de configuración desde nuestro repositorio git y desde la opción de Github Pages seleccionamos la opción de utilizar la rama que hemos creado (gh-pages)</li>
+  <li>¡Y listo! Nuestro sitio estará disponible <a href="https://i72gogur.github.io/Jekyll-GithubPages">aquí</a></li>
 </ol>
 
     <!DOCTYPE html>

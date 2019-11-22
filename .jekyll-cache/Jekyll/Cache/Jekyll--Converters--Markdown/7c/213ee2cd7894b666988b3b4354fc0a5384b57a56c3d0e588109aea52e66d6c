@@ -1,0 +1,3 @@
+I"�<p>Otro recurso que nos servirá de utilidad para la elaboración de nuestro sitio web son los assets, los cuales nos permitirán añadir fotos o archivos PDF a nuestros posts. Para ello crearemos una carpeta que con el nombre de assets y en la que incluiremos todas las imágenes o archivos que queremos que aparezcan en nuestra página. Además, también podemos añadir archivos de estilo css y nuestros scripts en javascript de esta forma, organizando la carpeta en subcarpetas tendremos todos los recursos bien organizados.
+Después, para utilizarlos simplemente tendremos que enlazarlos añadiendo la ruta del archivo que queremos añadir en el código de nuestro post.</p>
+:ET

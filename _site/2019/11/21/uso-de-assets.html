@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Welcome to Jekyll!</title>
+    <title>Uso De Assets</title>
     <link rel="stylesheet" href="/Jekyll-GithubPages/assets/css/styles.css">
   </head>
   <body>
@@ -39,31 +39,37 @@
 		
 		
 </body>
-    <h1>WELCOME TO JEKYLL!</h1>
+    <h1>USO DE ASSETS</h1>
 <p>
-  15 Nov 2019
+  21 Nov 2019
   
+  
+    - <a href="/Jekyll-GithubPages/authors/leo.html">Leonardo Cosano Palma</a>
   
 </p>
 
-<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>Otro recurso que nos servirá de utilidad para la elaboración de nuestro sitio web son los assets, los cuales nos permitirán añadir fotos o archivos PDF a nuestros posts. Para ello crearemos una carpeta que con el nombre de assets y en la que incluiremos todas las imágenes o archivos que queremos que aparezcan en nuestra página. Además, también podemos añadir archivos de estilo css y nuestros scripts en javascript de esta forma, organizando la carpeta en subcarpetas tendremos todos los recursos bien organizados.
+Después, para utilizarlos simplemente tendremos que enlazarlos añadiendo la ruta del archivo que queremos añadir en el código de nuestro post.</p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<p>Por ejemplo, si queremos añadir la imagen de nuestro logotipo en lenguaje Markdown haríamos lo siguiente:</p>
 
-<p><code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p><code class="highlighter-rouge">![Logotipo](/assets/images/logotipo.png)</code></p>
 
-<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>La principal utilidad que tiene el uso de assets es a la hora de dar estilo a nuestra página, para ello podemos utilizar Sass que es un preprocesador de lenguaje para hojas de estilo y que podemos usar conjuntamente con CSS.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>Primero crearemos un archivo Saas con extensión .scss, por ejemplo estilos.scss y lo añadiremos a nuestra carpeta de css dentro del directorio de assets. En este archivo dejaremos el front matter vacío, lo cual le indica a jekyll que tiene que procesar y añadiremos también la siguiente línea de código para importar el archivo de estilos, quedando nuestro archivos scss de la siguiente forma:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p><code class="highlighter-rouge">---  
+ ---  
+ @import "main";</code></p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p>Con esto indicamos a Sass que busque un archivo llamado main.scss (que en nuestro caso contendrá el estilo de nuestra página principal) en el directorio correspondiente a los archivos Sass.</p>
 
+<p>Por último, para usar esta hoja de estilos solamente tendremos que incluir en la cabecera del archivo html al que queramos dar forma la referencia a nuestro archivo scss creado al principio:</p>
+
+<p><code class="highlighter-rouge">&lt;link rel="stylesheet" href="/Jekyll-GithubPages/assets/css/styles.css"&gt;</code></p>
+
+<p>Para proyectos grandes en los que tenemos varias hojas de estilo esta es la mejor forma de tener organizado nuestro código.</p>
 
     <!DOCTYPE html>
 <head></head>
