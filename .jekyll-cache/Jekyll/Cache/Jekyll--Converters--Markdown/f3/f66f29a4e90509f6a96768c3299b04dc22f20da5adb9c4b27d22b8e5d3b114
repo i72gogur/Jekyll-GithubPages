@@ -1,0 +1,33 @@
+I"T<p>Desplegar tu sitio para que cualquiera pueda visitarlo es muy simple gracias a Jekyll y Github-Pages. Tan solo tienes que seguir estos pasos:</p>
+
+<ol>
+  <li>
+    <p>Editar el archivo de configuración _config.yml, modificando los parámetros baseurl donde añadiremos el nombre del repositorio desde el que accederemos a nuestro sitio y el parámetro url con la dirección completa de nuestro sitio.
+En nuestro caso será: https://i72gogur.github.io/Jekyll-GithubPages</p>
+  </li>
+  <li>
+    <p>Iniciamos git en un directorio local con: <code class="highlighter-rouge">git init</code></p>
+  </li>
+  <li>
+    <p>Enlazamos el repositorio de git con nuestro directorio local: <code class="highlighter-rouge">git remote add origin https://github.com/i72gogur/NombreDelRepositorio.git</code></p>
+  </li>
+  <li>
+    <p>Creamos una nueva rama para Github-Pages: <code class="highlighter-rouge">git checkout -b gh-pages</code></p>
+  </li>
+  <li>
+    <p>Añadimos todos los archivos: <code class="highlighter-rouge">git add .</code></p>
+  </li>
+  <li>
+    <p>Hacemos commit: <code class="highlighter-rouge">git commit -m "Mensaje"</code></p>
+  </li>
+  <li>
+    <p>Subimos el contenido a la rama creada con: <code class="highlighter-rouge">git push origin gh-pages</code></p>
+  </li>
+  <li>
+    <p>Vamos al apartado de configuración desde nuestro repositorio git y desde la opción de Github Pages seleccionamos la opción de utilizar la rama que hemos creado (gh-pages)</p>
+  </li>
+  <li>
+    <p>¡Y listo! Nuestro sitio estará disponible <a href="https://i72gogur.github.io/Jekyll-GithubPages">aquí</a></p>
+  </li>
+</ol>
+:ET

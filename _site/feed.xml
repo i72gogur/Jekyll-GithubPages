@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-22T01:21:50+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Comandos Basicos</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html" rel="alternate" type="text/html" title="Comandos Basicos" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html">&lt;p&gt;A continuación se muestra un resumen de los comandos básicos que hemos utilizado para el desarrollo de nuestro proyecto.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/" rel="alternate" type="text/html" /><updated>2019-11-22T01:25:01+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Comandos Basicos</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html" rel="alternate" type="text/html" title="Comandos Basicos" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/comandos-basicos.html">&lt;p&gt;A continuación se muestra un resumen de los comandos básicos que hemos utilizado para el desarrollo de nuestro proyecto.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -50,16 +50,34 @@
 &lt;/ol&gt;</content><author><name>rafa</name></author><summary type="html">A continuación se muestra un resumen de los comandos básicos que hemos utilizado para el desarrollo de nuestro proyecto.</summary></entry><entry><title type="html">Despliegue En Github Pages</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/despliegue-en-github-pages.html" rel="alternate" type="text/html" title="Despliegue En Github Pages" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/despliegue-en-github-pages</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/despliegue-en-github-pages.html">&lt;p&gt;Desplegar tu sitio para que cualquiera pueda visitarlo es muy simple gracias a Jekyll y Github-Pages. Tan solo tienes que seguir estos pasos:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Editar el archivo de configuración _config.yml, modificando los parámetros baseurl donde añadiremos el nombre del repositorio desde el que accederemos a nuestro sitio y el parámetro url con la dirección completa de nuestro sitio.
-En nuestro caso será: https://i72gogur.github.io/Jekyll-GithubPages&lt;/li&gt;
-  &lt;li&gt;Iniciamos git en un directorio local con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Enlazamos el repositorio de git con nuestro directorio local: &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add origin https://github.com/i72gogur/NombreDelRepositorio.git&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Creamos una nueva rama para Github-Pages: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b gh-pages&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Añadimos todos los archivos: &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Hacemos commit: &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;Mensaje&quot;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Subimos el contenido a la rama creada con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin gh-pages&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Vamos al apartado de configuración desde nuestro repositorio git y desde la opción de Github Pages seleccionamos la opción de utilizar la rama que hemos creado (gh-pages)&lt;/li&gt;
-  &lt;li&gt;¡Y listo! Nuestro sitio estará disponible &lt;a href=&quot;https://i72gogur.github.io/Jekyll-GithubPages&quot;&gt;aquí&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Editar el archivo de configuración _config.yml, modificando los parámetros baseurl donde añadiremos el nombre del repositorio desde el que accederemos a nuestro sitio y el parámetro url con la dirección completa de nuestro sitio.
+En nuestro caso será: https://i72gogur.github.io/Jekyll-GithubPages&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Iniciamos git en un directorio local con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enlazamos el repositorio de git con nuestro directorio local: &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add origin https://github.com/i72gogur/NombreDelRepositorio.git&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Creamos una nueva rama para Github-Pages: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b gh-pages&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Añadimos todos los archivos: &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hacemos commit: &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;Mensaje&quot;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Subimos el contenido a la rama creada con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin gh-pages&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vamos al apartado de configuración desde nuestro repositorio git y desde la opción de Github Pages seleccionamos la opción de utilizar la rama que hemos creado (gh-pages)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;¡Y listo! Nuestro sitio estará disponible &lt;a href=&quot;https://i72gogur.github.io/Jekyll-GithubPages&quot;&gt;aquí&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;</content><author><name>rafa</name></author><summary type="html">Desplegar tu sitio para que cualquiera pueda visitarlo es muy simple gracias a Jekyll y Github-Pages. Tan solo tienes que seguir estos pasos:</summary></entry><entry><title type="html">Plantillas En Jekyll</title><link href="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html" rel="alternate" type="text/html" title="Plantillas En Jekyll" /><published>2019-11-21T00:00:00+01:00</published><updated>2019-11-21T00:00:00+01:00</updated><id>https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll</id><content type="html" xml:base="https://i72gogur.github.io/Jekyll-GithubPages/Jekyll-GithubPages/2019/11/21/plantillas-en-jekyll.html">&lt;p&gt;Una gran utilidad de jekyll es la reutilización de código por medio de plantillas.
 Esta herramienta nos hará mucho más fácil y rápido el desarrollo de nuestro sitio web ya que podemos escribir un html para cada sección que se nos plantee: blogs, investigaciones, posts.
 Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremos que tener una plantilla para ellos.&lt;/p&gt;
@@ -76,16 +94,34 @@ Por ejemplo, aunque tengamos un número considerable de posts, tan solo tendremo
 &lt;p&gt;Desplegar tu sitio para que cualquiera pueda visitarlo es muy simple gracias a Jekyll y Github-Pages. Tan solo tienes que seguir estos pasos:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Editar el archivo de configuración _config.yml, modificando los parámetros baseurl donde añadiremos el nombre del repositorio desde el que accederemos a nuestro sitio y el parámetro url con la dirección completa de nuestro sitio.
-En nuestro caso será: https://i72gogur.github.io/Jekyll-GithubPages&lt;/li&gt;
-  &lt;li&gt;Iniciamos git en un directorio local con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Enlazamos el repositorio de git con nuestro directorio local: &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add origin https://github.com/i72gogur/NombreDelRepositorio.git&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Creamos una nueva rama para Github-Pages: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b gh-pages&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Añadimos todos los archivos: &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Hacemos commit: &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;Mensaje&quot;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Subimos el contenido a la rama creada con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin gh-pages&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Vamos al apartado de configuración desde nuestro repositorio git y desde la opción de Github Pages seleccionamos la opción de utilizar la rama que hemos creado (gh-pages)&lt;/li&gt;
-  &lt;li&gt;¡Y listo! Nuestro sitio estará disponible &lt;a href=&quot;https://i72gogur.github.io/Jekyll-GithubPages&quot;&gt;aquí&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Editar el archivo de configuración _config.yml, modificando los parámetros baseurl donde añadiremos el nombre del repositorio desde el que accederemos a nuestro sitio y el parámetro url con la dirección completa de nuestro sitio.
+En nuestro caso será: https://i72gogur.github.io/Jekyll-GithubPages&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Iniciamos git en un directorio local con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enlazamos el repositorio de git con nuestro directorio local: &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add origin https://github.com/i72gogur/NombreDelRepositorio.git&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Creamos una nueva rama para Github-Pages: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b gh-pages&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Añadimos todos los archivos: &lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hacemos commit: &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot;Mensaje&quot;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Subimos el contenido a la rama creada con: &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin gh-pages&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vamos al apartado de configuración desde nuestro repositorio git y desde la opción de Github Pages seleccionamos la opción de utilizar la rama que hemos creado (gh-pages)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;¡Y listo! Nuestro sitio estará disponible &lt;a href=&quot;https://i72gogur.github.io/Jekyll-GithubPages&quot;&gt;aquí&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;, redactamos la plantilla completa, dejando un hueco para el contenido variable de cada post, publicación, etc. en el que escribimos la etiqueta content, de tal forma que cada html que utilice la plantilla, reemplazará el hueco en blanco por su contenido.&lt;/p&gt;
 
