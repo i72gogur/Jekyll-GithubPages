@@ -12,7 +12,7 @@ title: VideoTutoriales
 	<ul class="autores">
 	  {% for video in site.data.tutoriales %}
 	    <li>
-	      <h2><a href="{{ video.link | prepend: site.url }}">{{ video.nombre }}</a></h2>
+	      <h2><a href="{{ video.link | prepend: site.baseurl }}">{{ video.nombre }}</a></h2>
 	      <h3>{{ video.desc }}</h3>
 	    </li>
 	  {% endfor %}
