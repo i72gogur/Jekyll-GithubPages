@@ -16,7 +16,7 @@ layout: default
 
 <h2>Tutoriales</h2>
 <ul>
-  {% assign blogs_filtrados = site.data.tutoriales | where: 'author', page.short_name %}
+  {% assign blogs_filtrados = site.data.tutoriales | where: 'autor', page.short_name %}
   {% for post in blogs_filtrados %}
     <li><a download="{{post.tutorial}}" href="{{ post.link | prepend: site.url }}">{{ post.tutorial }}</a></li>
   {% endfor %}
