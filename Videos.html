@@ -1,0 +1,21 @@
+---
+layout: default
+title: VideoTutoriales
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>	
+	<h1>Nuestros Videos</h1>
+	<ul class="autores">
+	  {% for video in site.data.tutoriales %}
+	    <li>
+	      <h2><a href="{{ video.link | prepend: site.baseurl }}">{{ video.nombre }}</a></h2>
+	      <h3>{{ video.desc }}</h3>
+	    </li>
+	  {% endfor %}
+	</ul>
+</body>
+</html>
