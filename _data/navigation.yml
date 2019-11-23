@@ -2,6 +2,8 @@
   link: /Jekyll-GithubPages
 - name: Posts
   link: /Jekyll-GithubPages/blog.html
+- name: VideoTutoriales
+  link: /Jekyll-GithubPages/Videos.html 
 - name: Colaboradores
   link: /Jekyll-GithubPages/colaboradores.html
 - name: About
