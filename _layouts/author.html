@@ -13,3 +13,11 @@ layout: default
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+<h2>Blogs</h2>
+<ul>
+  {% assign blogs_filtrados = site.data.tutoriales | where: 'author', page.short_name %}
+  {% for post in blogs_filtrados %}
+    <li><a href="{{ post.link | prepend: site.baseurl }}">{{ post.tutorial }}</a></li>
+  {% endfor %}
+</ul>
