@@ -1,20 +1,20 @@
 - nombre: Instalación
   desc: "Trata la Instalación y el despliegue de Jekyll, con un Hello World!"
-  link: "/tutoriales/Tutorial_instalacion.mkv"
+  link: "/tutoriales/Tutorial_instalacion.mp4"
   autor: rafa
 - nombre: Layouts
   desc: "Trata el uso de plantillas"
-  link: "/tutoriales/Tutorial_Layouts.mkv"
+  link: "/tutoriales/Tutorial_Layouts.mp4"
   autor: leo
 - nombre: Plugins
   desc: "Muestra como crear plugins"
-  link: "/tutoriales/Tutorial_Plugins.mkv"
+  link: "/tutoriales/Tutorial_Plugins.mp4"
   autor: leo
 - nombre: YAML
   desc: "Muestra como guardar información y acceder a ella"
-  link: "/tutoriales/Tutorial_YAML.mkv"
+  link: "/tutoriales/Tutorial_YAML.mp4"
   autor: leo
 - nombre: "Ejercicio YAML"
   desc: "¿Como creamos una navigation bar?"
-  link: "/tutoriales/Ejercicio_YAML.mkv"
+  link: "/tutoriales/Ejercicio_YAML.mp4"
   autor: leo
