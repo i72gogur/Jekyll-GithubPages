@@ -1,0 +1,22 @@
+- name: Leonardo
+  apodo: Leo
+  desc: >
+    Estudiante de ingeniería informática, computación.
+  lenguajes:
+    - liquid
+    - yaml
+    - ruby
+  content:
+    - Layouts
+    - Plugins
+    - YAML
+- name: Rafael
+  apodo: Rafita
+  desc: >
+    Estudiante de ingeniería informática, computadores.
+  lenguajes:
+    - c
+    - c++
+    - javascript
+    - html
+    - java
