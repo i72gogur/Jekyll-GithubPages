@@ -2,6 +2,7 @@
 short_name: rafa
 name: Rafael González Guerrero
 position: Editor
+emai: i72gogur@uco.es
 ---
 ![Imagen de rafa](/Jekyll-GithubPages/assets/images/rafa.png)  
 

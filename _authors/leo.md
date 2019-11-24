@@ -2,6 +2,7 @@
 short_name: leo
 name: Leonardo Cosano Palma
 position: Editor
+email: i72copal@uco.es
 ---
 ![Imagen de leo](/Jekyll-GithubPages/assets/images/leo.png) 
 
