@@ -12,19 +12,19 @@ title: Colaboradores
 	<div class="autores">
 		<table>
 		  {% for author in site.authors %}
-		  	<th>
-		  		<tr>
+		  	<tr>
+		  		<td>
 				      <h2><a href="{{ author.url | prepend: site.baseurl }}">{{ author.name }}</a></h2>
 				      <h3>{{ author.position }}</h3>
-				</tr>
-				<tr>
+				</td>
+				<td>
 						<p>{{ author.content | markdownify }}</p>
 						<button id="contacto">CONTACTA CONMIGO
 							<a href="{{ author.email | prepend: 'emailto:' }}"></a>
 						</button>
-				</tr>
+				</td>
 
-			</th>
+			</tr>
 		  {% endfor %}
 		</table>
 	</div>
