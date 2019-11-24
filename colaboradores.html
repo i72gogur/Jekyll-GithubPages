@@ -17,13 +17,10 @@ title: Colaboradores
 				      <h2><a href="{{ author.url | prepend: site.baseurl }}">{{ author.name }}</a></h2>
 				      <h3>{{ author.position }}</h3>
 				      <p>{{ author.content | markdownify }}</p>
-				</td>
-				<td>
-						<button id="contacto">CONTACTA CONMIGO
+				      <button id="contacto">{{ author.email | prepend: 'emailto:' }}
 							<a href="{{ author.email | prepend: 'emailto:' }}"></a>
-						</button>
+					  </button>
 				</td>
-
 			</tr>
 		  {% endfor %}
 		</table>
