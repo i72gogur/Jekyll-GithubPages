@@ -19,10 +19,12 @@ title: Colaboradores
 			    </li>
 			</th>
 			<th>
+				<li>
 				<p>{{ author.content | markdownify }}</p>
 				<button id="contacto">CONTACTA CONMIGO
 					<a href="{{ author.email | prepend: 'emailto:' }}"></a>
 				</button>
+				</li>
 			</th>
 		  {% endfor %}
 		</ul>
