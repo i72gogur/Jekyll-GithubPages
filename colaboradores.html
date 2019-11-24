@@ -9,28 +9,24 @@ title: Colaboradores
 </head>
 <body>	
 	<h1>Nuestros colaboradores</h1>
-	<table>
-		<ul class="autores">
+	<div class="autores">
+		<table>
 		  {% for author in site.authors %}
 		  	<th>
 		  		<tr>
-				    <li>
 				      <h2><a href="{{ author.url | prepend: site.baseurl }}">{{ author.name }}</a></h2>
 				      <h3>{{ author.position }}</h3>
-				    </li>
 				</tr>
 				<tr>
-					<li>
 						<p>{{ author.content | markdownify }}</p>
 						<button id="contacto">CONTACTA CONMIGO
 							<a href="{{ author.email | prepend: 'emailto:' }}"></a>
 						</button>
-					</li>
 				</tr>
 
 			</th>
 		  {% endfor %}
-		</ul>
-	</table>
+		</table>
+	</div>
 </body>
 </html>
